@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:grid="http://schemas.android.com/tools">
+
+    <GridLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGrey"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/languages_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/btnEnglish"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/english"/>
+
+            <ImageView
+                android:id="@+id/btnPolish"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/polish"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/center_layout"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@color/colorGrey"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bluetoothStatusLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/bluetoothName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bluetooth"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/bluetoothStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewTurnOnOffBluetooth"
+                style="@style/button_card_main">
+
+                <Button
+                    android:id="@+id/btnTurnOnOffBluetooth"
+                    style="@style/main_button_style"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardViewFindDevice"
+                style="@style/button_card_main">
+
+                <Button
+                    android:id="@+id/btnFindDevice"
+                    style="@style/main_button_style"
+                    android:clickable="false"
+                    android:text="@string/findDevice"/>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@android:drawable/ic_dialog_email"/>
+    </GridLayout>
+</layout>

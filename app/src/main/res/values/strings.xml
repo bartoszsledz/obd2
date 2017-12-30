@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">obd2</string>
+    <string name="author">Bartosz Śledź</string>
+    <string name="authorEmail">bartosz.sledz94@gmail.com</string>
+    <string name="authorGithub">https://github.com/bartoszsledz</string>
+
+    <string-array name="languageList">
+        <item>@string/english</item>
+        <item>@string/polish</item>
+    </string-array>
+
+    <string name="polish">Polish</string>
+    <string name="english">English</string>
+
+    <string name="findDevice">Select OBD2 Device</string>
+    <string name="turnOnBluetooth">Enable</string>
+    <string name="turnOffBluetooth">Disable</string>
+    <string name="bluetooth">Bluetooth: </string>
+    <string name="bluetoothOff">Off</string>
+    <string name="bluetoothOn">On</string>
+    <string name="bluetoothErrorTitle">Bluetooth Error.</string>
+    <string name="bluetoothError">Bluetooth is unsupported by this device.</string>
+    <string name="scanning">Scanning…</string>
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="notFound">Not found any devices.</string>
+    <string name="about">About</string>
+    <string name="ok">OK</string>
+    <string name="github">GitHub:</string>
+    <string name="email">Email:</string>
+    <string name="textview">Author:</string>
+    <string name="turningOn">Turning On Bluetooth…</string>
+    <string name="turnOn">Turn On Bluetooth.</string>
+    <string name="selectDevice">Select device..</string>
+    <string name="pair">Pair</string>
+    <string name="unPair">Unpair</string>
+    <string name="btnRealTimeInformation">Real Time Information</string>
+    <string name="faultCodes">Fault Codes</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">obd2</string>
+
+    <string-array name="languageList">
+        <item>@string/english</item>
+        <item>@string/polish</item>
+    </string-array>
+
+    <string name="polish">Polski</string>
+    <string name="english">Angielski</string>
+
+    <string name="findDevice">Wybierz urządzenie OBD2</string>
+    <string name="turnOnBluetooth">Włącz</string>
+    <string name="turnOffBluetooth">Wyłącz</string>
+    <string name="bluetoothOff">Wyłączony</string>
+    <string name="bluetoothOn">Włączony</string>
+    <string name="bluetoothErrorTitle">Błąd Bluetooth.</string>
+    <string name="bluetoothError">Bluetooth nie jest obsługiwany przez to urządzenie.</string>
+    <string name="scanning">Wyszukiwanie…</string>
+    <string name="cancel">Anuluj</string>
+    <string name="exit">Wyjdź</string>
+    <string name="notFound">Nie znaleziono żadnych urządzeń.</string>
+    <string name="about">O Programie</string>
+    <string name="turningOn">Włączanie Bluetooth…</string>
+    <string name="turnOn">Włącz Bluetooth.</string>
+    <string name="selectDevice">Wybierz urządzenie..</string>
+    <string name="pair">Paruj</string>
+    <string name="unPair">Usuń</string>
+    <string name="btnRealTimeInformation">Informacje Czasu Rzeczywistego</string>
+    <string name="faultCodes">Kody Błędów</string>
+
+
+</resources>
